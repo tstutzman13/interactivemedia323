@@ -1,0 +1,40 @@
+body{
+	background: black;
+	font-family: Georgia, serif;
+	color: #FF9900;
+	font-size: 1.5em;
+}
+h1{
+	text-align:center;
+	text-decoration: underline;
+	font-family: Impact;
+}
+h2{
+	text-transform: uppercase;
+}
+h4{
+	font-weight: bold;
+	letter-spacing: 3px;
+}
+strong{
+	color: white;
+	font-weight: bold;
+}
+img{
+	padding:20px;
+}
+a{
+	line-height: 110%;
+	letter-spacing: 3px;
+	color: #FF9900;
+}
+
+#firstP{
+	text-align: center;
+}
+#MiniGhost{
+	background-image: url("images/b2.jpg");
+}
+#MiniJack-O-Lantern{
+	background-image: url("images/b3.jpg");
+}
