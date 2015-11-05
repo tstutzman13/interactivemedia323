@@ -26,8 +26,12 @@ body {
 	height: 400px;
 	background: red;
 	border-radius: 150px / 50px;
-	margin-top: 120px;
-	margin-left: 150px;
+	/*
+	position
+	*/
+	position: absolute;
+	top: 120px;
+	left: 150px;
 	/*
 	Gradient
 	*/
@@ -52,27 +56,29 @@ body {
 	/*
 	Positioning
 	*/
-	margin-top: 120px;
-	margin-left: 135px;
+	position: absolute;
+	top: 120px;
+	left: 135px;
 	z-index: 1;
 }
 
 
-.lidPb{
-	width: 200px;
-	height: 20px;
-	background: #636363;
-	border-radius: 70px / 35px;
 
+.lidPb {
+	width: 165px;
+	height: 40px;
+	border-radius: 50%;
+	box-shadow: 10px 15px 0 #636363;
 	/*
 	Positioning
 	*/
-	margin-top: 120px;
-	margin-left: 135px;
-	z-index: 1;
+	position: absolute;
+	top: 92px;
+	left: 148px;
+	z-index: 2;
+	transform: rotate(2deg);
 }
-
-
+    
 .lidPc{
 	width: 150px;
 	height: 150px;
@@ -82,7 +88,78 @@ body {
 	/*
 	Positioning
 	*/
-	margin-top: 50px;
-	margin-left: 160px;
+	position: absolute;
+	top: 45px;
+	left: 160px;
 	z-index: 0;
 }
+
+/*
+									SECOND CANVAS  ITEMS HERE
+*/
+
+
+.cupa {
+   display:block;
+   width: 500px;
+   height: 180px;
+   -webkit-border-radius: 63px 63px 63px 63px / 108px 108px 72px 72px;
+   border-radius:         50%  50%  50%  50%  / 60%   60%   40%  40%;
+
+   position: absolute;
+   top: 100px;
+   left: 200px;
+   /*
+   Gradient
+   */
+	background: rgba(3,98,105,1);
+	background: -moz-linear-gradient(left, rgba(3,98,105,1) 0%, rgba(0,189,214,1) 62%, rgba(43,194,240,1) 68%, rgba(6,88,102,1) 100%);
+	background: -webkit-gradient(left top, right top, color-stop(0%, rgba(3,98,105,1)), color-stop(62%, rgba(0,189,214,1)), color-stop(68%, rgba(43,194,240,1)), color-stop(100%, rgba(6,88,102,1)));
+	background: -webkit-linear-gradient(left, rgba(3,98,105,1) 0%, rgba(0,189,214,1) 62%, rgba(43,194,240,1) 68%, rgba(6,88,102,1) 100%);
+	background: -o-linear-gradient(left, rgba(3,98,105,1) 0%, rgba(0,189,214,1) 62%, rgba(43,194,240,1) 68%, rgba(6,88,102,1) 100%);
+	background: -ms-linear-gradient(left, rgba(3,98,105,1) 0%, rgba(0,189,214,1) 62%, rgba(43,194,240,1) 68%, rgba(6,88,102,1) 100%);
+	background: linear-gradient(to right, rgba(3,98,105,1) 0%, rgba(0,189,214,1) 62%, rgba(43,194,240,1) 68%, rgba(6,88,102,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#036269', endColorstr='#065866', GradientType=1 );
+}
+
+.cupb {
+   display:block;
+   width: 500px;
+   height: 500px;
+   -webkit-border-radius: 63px 63px 63px 63px / 108px 108px 72px 72px;
+   border-radius:         50%  50%  50%  50%  / 60%   60%   40%  40%;
+
+   position: absolute;
+   top: 100px;
+   left: 200px;
+   /*
+   Gradient
+   */
+	background: rgba(3,98,105,1);
+	background: -moz-linear-gradient(left, rgba(3,98,105,1) 0%, rgba(0,189,214,1) 62%, rgba(43,194,240,1) 68%, rgba(6,88,102,1) 100%);
+	background: -webkit-gradient(left top, right top, color-stop(0%, rgba(3,98,105,1)), color-stop(62%, rgba(0,189,214,1)), color-stop(68%, rgba(43,194,240,1)), color-stop(100%, rgba(6,88,102,1)));
+	background: -webkit-linear-gradient(left, rgba(3,98,105,1) 0%, rgba(0,189,214,1) 62%, rgba(43,194,240,1) 68%, rgba(6,88,102,1) 100%);
+	background: -o-linear-gradient(left, rgba(3,98,105,1) 0%, rgba(0,189,214,1) 62%, rgba(43,194,240,1) 68%, rgba(6,88,102,1) 100%);
+	background: -ms-linear-gradient(left, rgba(3,98,105,1) 0%, rgba(0,189,214,1) 62%, rgba(43,194,240,1) 68%, rgba(6,88,102,1) 100%);
+	background: linear-gradient(to right, rgba(3,98,105,1) 0%, rgba(0,189,214,1) 62%, rgba(43,194,240,1) 68%, rgba(6,88,102,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#036269', endColorstr='#065866', GradientType=1 );
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
