@@ -1,9 +1,78 @@
 <DOCTYPE! html>
 <html>
-<head>
-	<title>Level 4.1</title>
-</head>
+	<head>
+		<title>Level 5.3</title>
+	</head>
 	<body>
-		
+		<div id="container">
+			<div id="lineA">I'm in the house.</div>
+			<div id="lineB">
+				<div class="box">It's</div>
+				<div class="box">nice</div>
+				<div class="box">out:</div>
+			</div>
+			<div class="lineC">warm sun on cold snow.</div>
+			<div class="lineD">First day of spring</div>
+			<div class="lineE">or last of winter.</div>
+			<div class="lineF">My legs run down</div>
+			<div class="lineG">the stairs and out</div>
+			<div class="lineH">the door, my top</div>
+			<div class="lineI">half here typing.</div>
+		</div>
 	</body>
 </html>
+
+<style type="text/css">
+#lineA{
+	font-size: 2.75em;
+}
+
+
+#lineB{
+	font-size: 6em;
+	font-family: helvetica;
+	color: black;
+}
+
+.box{
+	display: inline-block;
+}
+
+#container{
+	font-size: 2.75em;
+	background-color: #F0E68C;
+	-webkit-animation: mymove 15s infinite;
+	animation: mymove 15s infinite;
+	color: #F0E68C;
+}
+
+@keyframes mymove{
+	50% {
+		background-color: #191970;
+	}
+}
+
+.lineC{
+
+}
+.lineD{
+
+}
+.lineE{
+
+}
+.lineF{
+	margin-left: 10%;
+}
+.lineG{
+	margin-left: 20%;
+}
+.lineH{
+	margin-left: 30%;
+
+}
+.lineI{
+	margin-left: 40%;
+}
+
+</style>

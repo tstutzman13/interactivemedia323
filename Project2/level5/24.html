@@ -1,9 +1,78 @@
 <DOCTYPE! html>
 <html>
-<head>
-	<title>Level 4.1</title>
-</head>
+	<head>
+		<title>Level 5.4</title>
+	</head>
 	<body>
-		
+		<div>
+			<div id="main">
+			  <div style="background-color:brown;">
+			  	<div>I'm in the house.</div>
+
+			  	<div id="houseSpace">My legs run down</div>
+			  	<div>the stairs and out</div>
+			  	<div>the door, my top</div>
+			  	<div>half here typing</div>
+			  </div>
+			  <div style="background-color:lightblue;" id="myBlueDiv">
+			  	<div id="middle">
+			  		<div id="warmSpace">It's nice out: warm</div>
+			  		<div>sun on cold snow.</div>
+			  	</div>
+			  </div>
+			  <div style="background-color:khaki;" id="left">
+			  	<div id="coldSpace">First day of spring</div>
+			  	<div>or last of winter.</div>
+			  </div>
+			</div>
+		</div>
 	</body>
 </html>
+
+<style type="text/css">
+
+#main{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	font-size: 2em;
+	text-align: center;
+}
+ #main div:nth-of-type(1) {flex-grow: 2;}
+ #main div:nth-of-type(2) {flex-grow: 1;}
+ #main div:nth-of-type(3) {flex-grow: 1;}
+
+ #myBlueDiv{
+ 	-webkit-animation: mymove 5s infinite;
+ 	animation: mymove 5s infinite;
+ }
+
+@keyframes mymove{
+	50%{flex-grow: 8;}
+}
+
+#houseSpace{
+	margin-top: 80%;
+}
+
+#warmSpace{
+	margin-top: 35%;
+}
+#middle{
+
+}
+#middle:hover{
+	color: yellow;
+}
+
+#coldSpace{
+
+	margin-top: 55%;
+}
+#left{
+
+}
+#left:hover{
+	color: blue;
+}
+</style>

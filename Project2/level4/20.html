@@ -1,31 +1,46 @@
 <DOCTYPE! html>
 <html>
-<head>
-	<title>Level 4.5</title>
-</head>
+	<head>
+		<title>Level 4.5</title>
+	</head>
 	<body>
-		<div class="container">
-			<div class="object box inHouse">I'm in the house.</div>
-			<div class="object box niceOut">It's nice out:</div>
-			<div class="object box warmSun">warm sun</div>
-			<div class="object box coldSnow">on cold snow</div>
-			<div class="object box first">First day of spring</div>
-			<div class="object box last">or last</div>
-			<div class="object box winter">of winter.</div>
-			<div class="object box legsRun">My legs run down</div>
-			<div class="object box stairsOut">the stairs and out</div>
-			<div class="object box door">the door, my top half</div>
-			<div class="object box top"> top half</div>
-			<div class="object box here">here typing.</div>
+
+		<div class="larger">
+			<p> It's nice </p>
+			<div class="evenLarger"> out: </div>
+			<div class="inHouse"> I'm in the house. </div>
 		</div>
+
+		<div class="lower">
+			<div class="lowerSpace">warm sun on cold snow.</div> 
+			<div class="lowerSpaceTwo">First day of spring or last of winter.</div>
+		</div>
+
+		<div class="stairs">
+			<div class="stairs a">My legs</div>
+			<div class="stairs b">run down</div>
+			<div class="stairs c">the stairs</div>
+			<div class="stairs d">and out</div>
+			<div class="stairs e">the door</div>
+			<div class="stairs f">my top</div>
+			<div class="stairs g">half here</div>
+		</div>
+		<div class="h">typing.</div>
+
+
 	</body>
 </html>
 
 
 
 <style type="text/css">
-.object{
-	position: absolute;
+.larger{
+	font-size: 5em;
+}
+
+.evenLarger{
+	font-size: 10em;
+	line-height: 5%;
 }
 
 .box{
@@ -33,51 +48,68 @@
 }
 
 .inHouse{
+	height: 200px;
+	width: 200px;
+	font-size: 0.5em;
+	margin-left: 100px;
+	text-align: center;
+}
+
+.lower{
+	margin-top: 8%;
+	margin-left: 30px;
+	font-family: sans-serif;
+	font-size: 3em;
+}
+
+.lowerSpace{
+	letter-spacing: 29.7px;
+}
+.lowerSpaceTwo{
+	margin-top: 2%;
+	letter-spacing: 10.9px;
+}
+
+.stairs{
+	height: 800px;
+	width: 1000px;
+	position: absolute;
+	left: 5%;
+	font-size: 2em;
+}
+.a{
 	top: 5%;
+	left: 10%;
 }
-
-.niceOut{
-	top: 7%;
+.b{
+	top: 10%;
+	left: 20%;
 }
-
-.warmSun{
-	top: 9%;
-}
-
-.coldSnow{
-	top: 11%;
-}
-
-.first{
-	top: 13%;
-}
-
-.last{
+.c{
 	top: 15%;
+	left: 30%;
 }
-
-.winter{
-	top: 17%;
+.d{
+	top: 20%;
+	left: 40%;
 }
-
-.legsRun{
-	top: 19%;
-}
-
-.stairsOut{
-	top: 21%;
-}
-
-.door{
-	top: 23%;
-}
-
-.top{
+.e{
 	top: 25%;
+	left: 50%;
+}
+.f{
+	top: 30%;
+	left: 60%;
+}
+.g{
+	top: 35%;
+	left: 70%;
+}
+.h{
+	font-size: 4em;
+	margin-top: 27%;
+	margin-left: 75%;
 }
 
-.here{
-	top: 27%;
-}
 
 </style>
