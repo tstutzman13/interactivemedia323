@@ -9,14 +9,17 @@
 			<center>
 				<div class = "one">"The angel of the storm is coming;</div>
 				<div class = "two">his wings spread from the sky above</div>
-				<div class = "three">to the earth beneath. He will strike</div>
+				<div class = "three">to the earth beneath. He will strike you</div>
 			</center>
-			<div class = "four">you</div>
 			<div class = "five">down</div>
 			<center>
-				<div class = "six">before you can cry for mercy."</div>
+				<a href="29.html">
+					<div class = "six">before you can cry for mercy."</div>
+				</a>
 			</center>
 		</div>
+
+		<div class = "image"><img src="images/angel.jpg"></div>
 	</body>
 </html>
 
@@ -24,10 +27,11 @@
 
 .container{
 	font-family: Tahoma, sans-serif;
-	background-color: black;
+	color: white;
+
 	height: 960px;
 	width: 1024px;
-	color: white;
+	z-index: 0;
 }
 
 .object{
@@ -35,37 +39,46 @@
 }
 
 .one{
-	font-size: 40px;
+	font-size: 65px;
 
 	margin-top: 250px;
 }
 
 .two {
-	font-size: 30px;
+	font-size: 50px;
 }
 
 .three{
-	font-size: 30px;
+	font-size: 50px;
 }
 
 .four{
-	font-size: 30px;
-	margin-left: 750px;
+	font-size: 50px;
+
+	margin-top: -20px;
+	margin-left: 840px;
 }
 
 .five{
-	font-size: 30px;
+	font-size: 50px;
+
+	margin-top: 75px;
 	margin-left: 775px;
 }
 
 .six{
 	font-size: 15px;
-	margin-top: 400px;
+
+	margin-top: 300px;
+}
+
+.image{
+	z-index: -1px;
 }
 
 a{
 	text-decoration: none;
-	color: black;
+	color: white;
 }
 a:hover{
 	color: #752d11;

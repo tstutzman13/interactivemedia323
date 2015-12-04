@@ -5,24 +5,22 @@
 	</head>
 		
 	<body>
+		<div class = "object images">
+			<img src="images/12.jpg" height = "840px" width = "1024px">
+		</div>
+		<div class = "object one">
+			<p>You see here,</p>
+		</div>
 		<div class = "container">
-			<div class = "object images">
-				<img src="images/1.jpg" height = "400px" width = "550px">
-			</div>
-			<div class = "object one">
-				<p>You see here,</p>
-			</div>
 			<div class = "object two">
-				<p> you can either have</p>
-				<p><strong><a href="13.html">confidence and be successful,</a></strong></p>
-				<p>or end up in a singlewide because you</p>
-				<p>have no confidence.</p>
-				<br>
-				<p>When you have confidence, you can</p>
-				<p>end up rich because you can sell your</p>
-				<p>ideas and <strong>won't back out before</strong></p>
-				<p><strong>you have tried your hardest.</strong></p>
-				<br>
+				<p class = "object a"> you can either have</p>
+				<p class = "object b"><a href="13.html">confidence and be successful,</a></p>
+				<p class = "object c">because you won't backdown until</p>
+				<p class = "object d">you have tried your hardest</p>
+				<p class = "object e">or end up in a singlewide because you</p>
+				<p class = "object f">have no confidence.</p>
+			</div>
+			<div class = "object three">
 				<p>If you don't have confidence you can</p>
 				<p>1) end up in a singlewide, or</p>
 				<p>2) you can end up successful because you got lucky.</p>
@@ -34,7 +32,10 @@
 <style type="text/css">
 
 .container{
-	font-family: Palatino, sans-serif;
+	font-family: Palatino, serif;
+	color: white;
+
+	z-index: 0;
 }
 
 .object{
@@ -42,29 +43,68 @@
 }
 
 .one{
-	font-size: 50px;
+	font-size: 100px;
 
-	top: 120px;
-	left: 390px;
+	top: -57px;
+	left: 10px;
+
+	z-index: 0;
 
 }
 
 .two {
 	font-size: 20px;
 	line-height: 5px;
+	height: 200px;
+	width: 440px;
+	background-color: green;
 
 	top: 220px;
 	left: 580px;
 }
 
+.a{
+	top: 5px;
+	left: 10px;
+}
+.b{
+	font-size: 32px;
+
+	top: 20px;
+	left: 5px;
+}
+.c{
+
+}
+.d{
+
+}
+.e{
+
+}
+.f{
+
+}
+
+
+.three{
+	font-size: 20px;
+	line-height: 5px;
+
+	bottom: 5px;
+	left: 75px;
+}
+
 .images{
-	top: 210px
+	bottom: 5px;
+
+	z-index: -1;
 
 }
 
 a{
 	text-decoration: none;
-	color: black;
+	color: white;
 }
 a:hover{
 	color: #752d11;
