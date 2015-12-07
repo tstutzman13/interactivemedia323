@@ -5,24 +5,30 @@
 	</head>
 		
 	<body>
-		<div class = "container">
-			<div class = "object one">
-				<p>NO,</p>
-			</div>
-			<div class = "object two">
-				<a href="22.html">
-					<p><strong>the more confidence you have</strong></p>
-					<p><strong>the better off  your life will be.</strong></p>
-				</a>
-				<br>
-				<p>You see, confident people don't get</p>
-				<p>taken advantage of or get walked over.</p>
-				<br>
-				<p>They know they are right and are</p>
-				<p>able to stand up for themselves.</p>
-			</div>
+		<div class = "whole">
 			<div class = "object image">
-				<img src="images/2.jpg"  width = "818px" height = "613px">
+				<img src="images/23.jpg"  width = "713px" height = "960px">
+			</div>
+			<div class = "container">
+				<div class = "object one">N</div>
+				<div class = "object onea">O</div>
+				<a href="22.html">
+					<div class = "object two">
+						<strong>
+							<p>the more confidence you </p>
+							<p>have the better off  your </p>
+							<p>life will be.</p>
+						</strong>
+					</div>	
+				</a>
+				<div class = "object three">
+					<br>
+					<p>You see, confident people don't get</p>
+					<p>taken advantage of or get walked over.</p>
+					<br>
+					<p>They know they are right and are</p>
+					<p>able to stand up for themselves.</p>
+				</div>
 			</div>
 		</div>
 	</body>
@@ -33,6 +39,12 @@
 .container{
 	font-family: Palatino, serif;
 
+	z-index: 0;
+}
+
+.whole{
+	height: 960px;
+	width: 1024px;
 }
 
 .object{
@@ -40,34 +52,52 @@
 }
 
 .one{
-	font-size: 150px;
+	font-size: 320px;
 
-	top: -50px;
-	left: 40px;
+	z-index: 1;
 
-}
-
-.two {
-	font-size: 20px;
-	line-height: 7px;
-
-	top: 330px;
+	top: 30px;
 	left: 50px;
 }
 
-.image{
-	transform: rotate(-90deg);
-	-webkit-transform: rotate(-90deg);
-	-ms-transform: rotate(-90deg);
+.onea{
+	font-size: 320px;
+	color: white;
 
-	top: 200px;
-	left: 300px;
+	z-index: 1;
+
+	top: 30px;
+	left: 330px;
+}
+
+.two{
+	font-size: 20px;
+	line-height: 7px;
+
+	left: 60px;
+	top: 300px;
+}
+
+.three{
+	font-size: 20px;
+	line-height: 7px;
+	color: white;
+
+	top: 810px;
+	left: 330px;
+}
+
+.image{
+	
+	left: 320px;
+
+	z-index: -1;
 }
 a{
 	text-decoration: none;
 	color: black;
 }
 a:hover{
-	color: #752d11;
+	color:#DEB887;
 }
 </style>
